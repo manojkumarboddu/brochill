@@ -42,7 +42,9 @@
       .firsthead {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         background-color: rgb(39, 197, 39);
+        height: 100px;
       }
       .hdli {
         margin-right: 60px;
@@ -50,10 +52,45 @@
       .back_ground {
         background-color: transparent;
         background-image: linear-gradient(180deg, #ffffff 0%, #3bfd06 222%);
+        font-size: x-large;
+        font-family: ABeeZee, Sans-serif;
+      }
+      .icon {
+        color: white;
+        font-size: large;
       }
     </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div
+      style="
+        background-color: forestgreen;
+        height: 28px;
+        border-bottom: 2px solid;
+        border-color: white;
+        display: flex;
+
+        align-items: center;
+      "
+    >
+      <div style="display: flex; gap: 15px; margin-left: 25px">
+        <div class="icon">
+          <i class="fa-brands fa-square-facebook"></i>
+        </div>
+        <div class="icon"><i class="fa-brands fa-square-instagram"></i></div>
+        <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+        <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+        <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+      </div>
+    </div>
     <section>
       <div class="firsthead">
         <div>
@@ -68,7 +105,14 @@
             Home
           </ul>
           <ul>
-            Explore
+            <div class="dpdown">
+              <span>Explore</span>
+              <div class="dp_dc">
+                <p>Features</p>
+                <p>Career</p>
+                <p>Team</p>
+              </div>
+            </div>
           </ul>
           <ul>
             Contact
@@ -87,27 +131,39 @@
           </ul>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
     </section>
-    <div class="back_ground">
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur
-        possimus voluptatem maiores porro praesentium optio veniam voluptates
-        laudantium quod. Nemo, beatae rerum hic laborum, fuga qui tenetur
-        veritatis, consequuntur numquam voluptatum est facilis mollitia fugiat!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-        corporis eos beatae vitae quo iste dolore ut voluptates alias
-        repudiandae. Laborum saepe facilis vel! Illo beatae voluptatem aperiam,
-        corporis odit fugit accusantium quis quasi. Quo deserunt velit dolore
-        molestias quis, error sit! Fugit sunt commodi earum temporibus in
-        perspiciatis, eveniet natus vero aliquid rem quia asperiores itaque
-        officiis ad, ducimus quasi necessitatibus doloribus placeat esse. Maxime
-        illo nam accusamus qui atque dignissimos culpa veritatis ut non
-        repellendus corrupti dolorum deserunt sequi praesentium nobis facilis
-        ipsam ab, quos, molestias veniam labore incidunt ea? Reprehenderit,
-        repudiandae voluptates?
-      </p>
+    <div
+      class="back_ground"
+      style="display: flex; flex-direction: column; align-items: center"
+    >
+      <div
+        style="
+          font-size: 60px;
+          font-family: ABeeZee, Sans-serif;
+          font-weight: bold;
+        "
+      >
+        BroChill
+      </div>
+      <br />
+
+      <div>Local is the New Global</div>
+      <br />
+      <div>India’s biggest localized content creation platform</div>
+      <br />
+      <br />
+      <div>
+        <img
+          src="https://www.brochill.com/wp-content/uploads/2021/09/google-playstore-icon-1.png"
+          alt="img"
+        />
+      </div>
+      <div style="font-size: 69px; line-height: px">32,056,732</div>
+      <div>32M+ Strong Downloads</div>
+      <br />
     </div>
     <br />
     <br />
@@ -115,7 +171,18 @@
     <section class="content">
       <h1>what-is-brochill2-1</h1>
       <div class="container">
-        <div style="width: 450px; font-size: x-large; justify-content: left">
+        <div
+          style="
+            width: 450px;
+            height: 180px;
+            padding: 25px;
+            font-size: x-large;
+            justify-content: left;
+            font-family: ABeeZee, Sans-serif;
+            border-left: 4px solid;
+            border-color: rgb(245, 242, 242);
+          "
+        >
           Brochill is a vernacular content platform. It is a personalizable
           content discovery platform. Creators post personalisable images and
           videos, and users consume them. All content is curated based on
@@ -131,7 +198,18 @@
     <section class="content">
       <h1>What do we do ?</h1>
       <div class="container">
-        <div style="width: 450px; font-size: x-large; justify-content: left">
+        <div
+          style="
+            width: 450px;
+            height: 180px;
+            padding: 25px;
+            font-size: x-large;
+            justify-content: left;
+            font-family: ABeeZee, Sans-serif;
+            border-left: 4px solid;
+            border-color: rgb(245, 242, 242);
+          "
+        >
           BroChill provides a platform for innovative content creators. Where
           creators can post personalizable videos, personalizable images, and
           short videos on BroChill. All content posted by creators is curated
@@ -147,7 +225,18 @@
     </section>
     <section class="content">
       <div class="container">
-        <div style="width: 450px; font-size: x-large; justify-content: left">
+        <div
+          style="
+            width: 450px;
+            height: 280px;
+            padding: 25px;
+            font-size: x-large;
+            justify-content: left;
+            font-family: ABeeZee, Sans-serif;
+            border-left: 4px solid;
+            border-color: rgb(245, 242, 242);
+          "
+        >
           BroChill provides a platform for vernacular consumers. They can
           consume the content by creating their own video and images from
           personalizable content which is posted by content creators. BroChill
